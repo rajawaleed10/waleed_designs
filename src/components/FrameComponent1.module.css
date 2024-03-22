@@ -1,0 +1,174 @@
+.backgroundLine3mkzzi26svgFIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.designTeamIn,
+.getYourDedicated,
+.minutes {
+  margin: 0;
+}
+.heading1Container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 77px;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.path,
+.skipTheHiring {
+  align-self: stretch;
+  display: flex;
+  flex-shrink: 0;
+}
+.skipTheHiring {
+  height: 60px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(--font-roboto);
+  color: var(--color-slategray);
+  align-items: center;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.path {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36.90000000000009px;
+}
+.contactMe {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 18px;
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+}
+.button,
+.link,
+.pathParent {
+  display: flex;
+  align-items: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 0;
+  padding: 19.299999999999955px var(--padding-lgi) 20.700000000000045px;
+  background-color: var(--color-midnightblue-100);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.link:hover {
+  background-color: var(--color-darkslateblue);
+}
+.button,
+.pathParent {
+  max-width: 100%;
+}
+.pathParent {
+  width: 534.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.button {
+  width: 864.6px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.divdorikSectionHwx9zrt5FraIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.section,
+.sectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section {
+  flex: 1;
+  background-color: var(--color-azure);
+  flex-direction: column;
+  padding: var(--padding-89xl-8) 0 0;
+  position: relative;
+  gap: 65.39999999999998px;
+}
+.sectionWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 139.9999999999999px;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .heading1Container {
+    font-size: var(--font-size-25xl);
+    line-height: 62px;
+  }
+  .sectionWrapper {
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .path {
+    gap: 18px 36.9px;
+  }
+  .pathParent {
+    gap: 20px 40px;
+  }
+  .section {
+    gap: 33px 65.4px;
+    padding-top: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading1Container {
+    font-size: var(--font-size-14xl);
+    line-height: 46px;
+  }
+  .skipTheHiring {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .section {
+    gap: 16px 65.4px;
+  }
+  .sectionWrapper {
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}

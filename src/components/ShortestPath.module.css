@@ -1,0 +1,101 @@
+.section4d9eae39961e0e0ab78a,
+.section712e78be4c08af51e94e,
+.sectionB3832b43b7e196366156 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.breadthFirstSearch {
+  height: 725.3px;
+  width: 295.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29.949999999999815px;
+}
+.section011d6fa8e2d4caa6488d,
+.section0ee925b153667cbe16ec {
+  align-self: stretch;
+  height: 373.9px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  debug_commit: f6aba90;
+}
+.section011d6fa8e2d4caa6488d {
+  height: 343.9px;
+}
+.dataStructures,
+.scalarOperations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dataStructures {
+  align-self: stretch;
+  height: 717.8px;
+}
+.scalarOperations {
+  flex: 1;
+  padding: 3.699999999999818px 0 0;
+  box-sizing: border-box;
+  min-width: 298px;
+  max-width: 100%;
+}
+.section000429d87146cdaf5aab,
+.section66404965feb4ea688b5f,
+.sectionC08db4fd28aaee6b3c0a {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.breadthFirstSearch1,
+.depthFirstSearch,
+.shortestPath {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadthFirstSearch1 {
+  height: 725.3px;
+  width: 295.7px;
+  flex-direction: column;
+  gap: 29.949999999999815px;
+}
+.depthFirstSearch,
+.shortestPath {
+  flex-direction: row;
+  max-width: 100%;
+}
+.depthFirstSearch {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.shortestPath {
+  align-self: stretch;
+  padding: 0 var(--padding-25xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .shortestPath {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

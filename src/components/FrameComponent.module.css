@@ -1,0 +1,124 @@
+.frameGroup,
+.sectionGroup,
+.sectionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sectionGroup,
+.sectionParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+  min-width: 342px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-43xl);
+}
+.sectionHeading {
+  margin: 0;
+  width: 218.2px;
+  position: relative;
+  font-size: inherit;
+  line-height: 63px;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.sectionHeading2OurWorkWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-23xl);
+  font-family: var(--font-poppins);
+}
+.cycleDetection,
+.sectionWho {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.sectionWho {
+  width: 494.6px;
+  position: relative;
+  line-height: 30px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.cycleDetection {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-slategray);
+}
+.frameParent,
+.symbolsInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+}
+.symbolsInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .frameGroup {
+    gap: var(--gap-12xl);
+  }
+  .symbolsInner {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sectionHeading {
+    font-size: var(--font-size-15xl);
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sectionGroup,
+  .sectionParent {
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionHeading {
+    font-size: var(--font-size-6xl);
+    line-height: 38px;
+  }
+  .sectionWho {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
